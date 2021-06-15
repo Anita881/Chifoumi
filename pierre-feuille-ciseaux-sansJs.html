@@ -79,13 +79,13 @@ body {
   var listePFC = [ "pierre", "feuille", "ciseau"];
     function Initialisation () {
       document.getElementById("rejouer").style.display = "none" // cache le bouton rejouer
-      document.getElementById("resultat-gauche").innerHTML= "&nbsp";
-      document.getElementById("resultat-droite").innerHTML= "&nbsp";
-      document.getElementById("image-gauche").style.pointerEvents = "auto";
-      document.getElementById("image-droite").style.pointerEvents = "auto";
+      document.getElementById("resultat-gauche").innerHTML= "&nbsp"; // Met un espace à la place de Gagné
+      document.getElementById("resultat-droite").innerHTML= "&nbsp"; // Met un espace à la place de Perdu
+      document.getElementById("image-gauche").style.pointerEvents = "auto"; // Permet de cliquer sur l'image gauche
+      document.getElementById("image-droite").style.pointerEvents = "auto"; // Permet de cliquer sur l'image droite
   }
     function joueurGauche () {
-      document.getElementById("gauche").style.backgroundColor = "black";
+      document.getElementById("gauche").style.backgroundColor = "black"; // Change la couleur de l'arrière plan de gauche en noir
 
     }
 
