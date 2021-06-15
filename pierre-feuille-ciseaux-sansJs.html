@@ -76,7 +76,12 @@ body {
 </div>
 <div id="rejouer"> <button type="button" class="bouton" onclick="Initialisation();">Rejouer</button> </div>
 <script>
-
+  var listePFC = [ "pierre", "feuille", "ciseau"];
+  function Initialisation () {
+      document.getElementById("rejouer").style.display = "none" // cache le bouton rejouer
+      document.getElementById("resultat-gauche").innerHTML= "&nbsp";
+      document.getElementById("resultat-droite").innerHTML= "&npsp";
+  }
 
 </script>
 </body>
