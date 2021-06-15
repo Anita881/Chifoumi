@@ -83,13 +83,17 @@ body {
       document.getElementById("resultat-droite").innerHTML= "&nbsp"; // Met un espace à la place de Perdu
       document.getElementById("image-gauche").style.pointerEvents = "auto"; // Permet de cliquer sur l'image gauche
       document.getElementById("image-droite").style.pointerEvents = "auto"; // Permet de cliquer sur l'image droite
+      listePFC = ["pierre", "feuille", "ciseau"];
   }
     function joueurGauche () {
       document.getElementById("gauche").style.backgroundColor = "black"; // Change la couleur de l'arrière plan de gauche en noir
 
+
+
     }
     function joueurDroite () {
-      document.getElementById("droite").style.backgroundColor = "black"; // Change la couleur de l'arrière plan de droite en noir
+        document.getElementById("droite").style.backgroundColor = "black"; // Change la couleur de l'arrière plan de droite en noir
+
     }
 
 
